@@ -1,0 +1,70 @@
+{
+  "f5f9cb97-bcc9-42cf-a7b0-1923e69205d0": [],
+  "183b824c-ce1c-4b0b-b3af-5d01111f9dd6": [
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, how can I help you?\n"
+    },
+    {
+      "role": "user",
+      "content": "\u0915\u094c\u0928 \u0938\u0940 \u092c\u0947\u0938\u094d\u091f \u092a\u094d\u0930\u0948\u0915\u094d\u091f\u093f\u0938 \u0921\u093e\u0932\u0940 \u0917\u0908 \u0939\u0948? \u0915\u0948\u0938\u0947 \u0915\u094d\u0935\u0947\u0936\u094d\u091a\u0928 \u092a\u0942\u091b \u0930\u0939\u0940 \u0939\u094b \u092f\u093e\u0930"
+    },
+    {
+      "role": "assistant",
+      "content": "\u092e\u0941\u091d\u0947 \u0915\u094d\u0937\u092e\u093e \u0915\u0930\u0947\u0902, \u092e\u0948\u0902 \u0938\u092e\u091d\u093e \u0928\u0939\u0940\u0902\u0964 \u0915\u094d\u092f\u093e \u0906\u092a \u0905\u092a\u0928\u0940 \u0915\u094d\u0935\u0947\u0930\u0940 \u0915\u094b \u092b\u093f\u0930 \u0938\u0947 \u0932\u093f\u0916 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902?"
+    }
+  ],
+  "303cf57d-f21f-4c14-8ff4-6fbb04987f28": [],
+  "964e9232-c3f6-40f5-9f8b-78eb76e9cba3": [],
+  "cc5032e4-f47e-4597-b8f6-2670f6c19b3d": [],
+  "f6d655bd-5543-4c77-bf99-0a588653c1ed": [],
+  "27a8e9b8-0ade-4a2f-8871-5bb3bcbf55a6": [
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, how can I help you?\n"
+    },
+    {
+      "role": "user",
+      "content": "What are you?"
+    },
+    {
+      "role": "assistant",
+      "content": "I am an assistant that helps users interact with NITI Aayog's NITI For States platform."
+    },
+    {
+      "role": "user",
+      "content": "Okay, so what sort of things i can ask you"
+    },
+    {
+      "role": "assistant",
+      "content": "I can help you with the following:\n\n1.  Searching for documents in the database based on your intent. This includes practices, policies, acts, and more.\n2.  Answering questions about facts and data.\n3.  Searching for content within specific documents if you already have their IDs."
+    }
+  ],
+  "09de19c1-6258-4528-b437-47b1f5d0ec0c": [],
+  "11fe4c3f-5405-4a08-8824-41cc35cec3d3": [
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, how can I help you?\n"
+    },
+    {
+      "role": "user",
+      "content": "What is the best method to file income taxes"
+    },
+    {
+      "role": "assistant",
+      "content": "I am sorry, I cannot fulfill this request. The available tools lack the functionality to provide advice on income tax filing methods.\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+requests
+google-genai
+qdrant-client[fastembed]
+python-multipart
+fastapi
+uvicorn
+sentence-transformers
+scikit-learn
+pandas
+numpy

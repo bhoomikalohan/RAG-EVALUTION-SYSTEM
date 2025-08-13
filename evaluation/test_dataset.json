@@ -1,0 +1,18 @@
+{
+  "test_cases": [
+    {
+      "question": "What are the recommended best practices for data handling?",
+      "expected_answer": "Best practices include proper data validation, secure storage, and regular backups.",
+      "collections": ["best_practices", "data"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "What is our policy on user data retention?",
+      "expected_answer": "User data should be retained for no more than 24 months unless required by law.",
+      "collections": ["policies"],
+      "difficulty": "easy",
+      "type": "policy_lookup"
+    }
+  ]
+}
