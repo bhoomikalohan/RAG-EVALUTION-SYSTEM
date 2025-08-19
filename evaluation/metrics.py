@@ -1,6 +1,6 @@
 import asyncio
 from typing import Dict, List
-import openai  # for LLM-as-judge evaluation
+import openai  
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
