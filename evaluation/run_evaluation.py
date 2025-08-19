@@ -8,7 +8,6 @@ async def main():
     evaluator = RAGEvaluator()
     metrics = RAGMetrics()
     
-    # Load test cases
     dataset = evaluator.load_test_dataset()
     
     results = []
@@ -25,7 +24,6 @@ async def main():
             test_case.get("collections", ["best_practices", "policies", "data"])
         )
         
-        # Calculate metrics
         similarity = metrics.semantic_similarity(
             result["generated_answer"],
             result["expected_answer"]
@@ -39,7 +37,6 @@ async def main():
     
     avg_similarity = total_similarity / len(results)
     
-    # Save results
     evaluation_report = {
         "timestamp": datetime.now().isoformat(),
         "average_semantic_similarity": avg_similarity,
@@ -54,8 +51,7 @@ async def main():
     print(f"   Average Similarity: {avg_similarity:.3f}")
     print(f"   Results saved to: evaluation/latest_report.json")
     
-    # Exit with error if performance is below threshold
-    if avg_similarity < 0.7:  # Adjust threshold as needed
+    if avg_similarity < 0.7:  
         print("❌ Performance below threshold!")
         sys.exit(1)
     else:
