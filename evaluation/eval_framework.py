@@ -16,10 +16,8 @@ class RAGEvaluator:
     
     async def evaluate_single_query(self, question: str, expected_answer: str, collections: List[str]):
         """Evaluate a single query through your RAG pipeline"""
-        # Get response from your existing HybridSearcher
         response_stream = self.searcher.process_query(question, collections)
         
-        # Collect full response
         full_response = ""
         async for chunk in response_stream:
             if hasattr(chunk, 'text'):
