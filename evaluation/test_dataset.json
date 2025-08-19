@@ -13,6 +13,362 @@
       "collections": ["policies"],
       "difficulty": "easy",
       "type": "policy_lookup"
+    },
+    {
+      "question": "How should data breaches be reported according to our procedures?",
+      "expected_answer": "Data breaches must be reported within 72 hours to the compliance team and documented.",
+      "collections": ["policies", "best_practices"],
+      "difficulty": "hard",
+      "type": "procedural"
+    },
+    {
+      "question": "Who is responsible for data stewardship in our organization?",
+      "expected_answer": "Data stewards and department heads share responsibility for data stewardship.",
+      "collections": ["policies"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "What encryption standards are required for data at rest?",
+      "expected_answer": "Data at rest must be encrypted using AES-256 or an equivalent standard.",
+      "collections": ["best_practices", "security"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "Describe the procedure for granting data access to new employees.",
+      "expected_answer": "Access requests must be approved by managers and IT, followed by user training.",
+      "collections": ["procedures"],
+      "difficulty": "medium",
+      "type": "procedural"
+    },
+    {
+      "question": "What methods do we use to ensure data quality?",
+      "expected_answer": "We use validation rules, audits, and automated checks to ensure data quality.",
+      "collections": ["data"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "How often are data backups performed?",
+      "expected_answer": "Daily automated backups are performed with weekly offsite replication.",
+      "collections": ["best_practices"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "question": "What are the steps to conduct a data quality audit?",
+      "expected_answer": "Define scope, sample data, assess accuracy, report findings, and remediate issues.",
+      "collections": ["procedures"],
+      "difficulty": "hard",
+      "type": "procedural"
+    },
+    {
+      "question": "What regulation governs the handling of personal data?",
+      "expected_answer": "The GDPR governs the collection, use, and storage of personal data in our jurisdiction.",
+      "collections": ["policies", "compliance"],
+      "difficulty": "easy",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "How do we ensure compliance with privacy laws?",
+      "expected_answer": "By maintaining consent records, conducting audits, and applying privacy by design.",
+      "collections": ["policies"],
+      "difficulty": "hard",
+      "type": "factual"
+    },
+    {
+      "question": "What data formats are accepted for ingestion?",
+      "expected_answer": "CSV, JSON, XML, and Parquet are accepted data formats for ingestion.",
+      "collections": ["technical"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "What controls are in place for user authentication?",
+      "expected_answer": "Multi-factor authentication and role-based access control are required.",
+      "collections": ["security"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "How do we track data processing activities?",
+      "expected_answer": "Data processing is tracked via logging, auditing tools, and data catalogs.",
+      "collections": ["best_practices"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "What are the retention periods for backup data?",
+      "expected_answer": "Backup data is retained for at least 7 years or as mandated by compliance.",
+      "collections": ["policies"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "How should deprecated data be archived?",
+      "expected_answer": "Deprecated data should be archived to encrypted storage with limited access.",
+      "collections": ["best_practices"],
+      "difficulty": "medium",
+      "type": "procedural"
+    },
+    {
+      "question": "What are the responsibilities of data owners?",
+      "expected_answer": "Data owners must ensure data accuracy, security, and compliance with policies.",
+      "collections": ["policies"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "How do we respond to data subject access requests?",
+      "expected_answer": "Requests are validated, fulfilled within 30 days, and properly documented.",
+      "collections": ["procedures", "compliance"],
+      "difficulty": "hard",
+      "type": "procedural"
+    },
+    {
+      "question": "What tools are used for data lineage tracking?",
+      "expected_answer": "We use metadata management tools like Apache Atlas and Collibra for lineage.",
+      "collections": ["technical"],
+      "difficulty": "hard",
+      "type": "factual"
+    },
+    {
+      "question": "How is data anonymization performed?",
+      "expected_answer": "Data anonymization uses techniques like masking, tokenization, and aggregation.",
+      "collections": ["security", "best_practices"],
+      "difficulty": "hard",
+      "type": "factual"
+    },
+    {
+      "question": "What is the protocol for incident response involving data?",
+      "expected_answer": "Identify, contain, eradicate, recover, and conduct a post-incident review.",
+      "collections": ["procedures", "security"],
+      "difficulty": "hard",
+      "type": "procedural"
+    },
+    {
+      "question": "What metrics define data timeliness?",
+      "expected_answer": "Timeliness is measured by latency, update frequency, and availability windows.",
+      "collections": ["data"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "Which departments have data ownership responsibilities?",
+      "expected_answer": "Business units, IT, and compliance share data ownership based on data domains.",
+      "collections": ["policies"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "What is the company policy on third-party data sharing?",
+      "expected_answer": "Third-party data sharing requires contracts, risk assessments, and compliance checks.",
+      "collections": ["policies", "compliance"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "What access controls protect sensitive datasets?",
+      "expected_answer": "Role-based and attribute-based access controls protect sensitive data.",
+      "collections": ["security"],
+      "difficulty": "hard",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "How are data backups validated?",
+      "expected_answer": "Backups are validated through restore tests and integrity checks.",
+      "collections": ["best_practices"],
+      "difficulty": "medium",
+      "type": "procedural"
+    },
+    {
+      "question": "How is data consistency maintained across systems?",
+      "expected_answer": "Consistency is maintained via ETL processes, transaction management, and reconciliation.",
+      "collections": ["data"],
+      "difficulty": "hard",
+      "type": "factual"
+    },
+    {
+      "question": "Which laws govern international data transfers?",
+      "expected_answer": "The GDPR and the Data Protection Act regulate international data transfers.",
+      "collections": ["compliance"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "What training is required for data handlers?",
+      "expected_answer": "Data handlers must complete privacy, security, and compliance training annually.",
+      "collections": ["policies"],
+      "difficulty": "easy",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "How is data accuracy measured?",
+      "expected_answer": "Accuracy is measured by error rates, validation checks, and audit results.",
+      "collections": ["data"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "What is the policy for data incident reporting?",
+      "expected_answer": "Incidents must be reported within 24 hours to security and compliance teams.",
+      "collections": ["policies", "security"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "How are data encryption keys managed?",
+      "expected_answer": "Encryption keys are rotated regularly and stored securely using hardware modules.",
+      "collections": ["security"],
+      "difficulty": "hard",
+      "type": "factual"
+    },
+    {
+      "question": "What processes ensure data availability?",
+      "expected_answer": "Redundancy, failover systems, and SLA monitoring ensure data availability.",
+      "collections": ["best_practices"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "How is sensitive data classified?",
+      "expected_answer": "Data is classified as public, internal, confidential, or restricted based on sensitivity.",
+      "collections": ["policies"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "What are the guidelines for secure remote data access?",
+      "expected_answer": "Use VPNs, multi-factor authentication, and endpoint security for remote access.",
+      "collections": ["security", "best_practices"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "What is the procedure for data disposal?",
+      "expected_answer": "Data disposal requires secure deletion and certification of destruction.",
+      "collections": ["procedures", "security"],
+      "difficulty": "medium",
+      "type": "procedural"
+    },
+    {
+      "question": "How do we monitor data usage and access?",
+      "expected_answer": "Data usage is monitored via access logs, analytics, and anomaly detection tools.",
+      "collections": ["security", "best_practices"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "What are common causes of data loss?",
+      "expected_answer": "Data loss can be caused by hardware failure, human error, or cyber attacks.",
+      "collections": ["security"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "question": "How frequently is data access reviewed?",
+      "expected_answer": "Data access permissions are reviewed quarterly to ensure compliance.",
+      "collections": ["policies"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "What privacy principles guide data handling?",
+      "expected_answer": "Principles include data minimization, purpose limitation, and user consent.",
+      "collections": ["policies", "compliance"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "What is the role of a data governance council?",
+      "expected_answer": "The council oversees policies, standards, and compliance across the organization.",
+      "collections": ["policies"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "Which tools support data cataloging?",
+      "expected_answer": "Tools like Alation, Collibra, and Apache Atlas support data cataloging.",
+      "collections": ["technical"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "How is user consent recorded and maintained?",
+      "expected_answer": "Consent is recorded through digital logs and regularly audited for validity.",
+      "collections": ["policies"],
+      "difficulty": "hard",
+      "type": "procedural"
+    },
+    {
+      "question": "What mechanisms protect data integrity?",
+      "expected_answer": "Checksums, audit trails, and access controls protect data integrity.",
+      "collections": ["security"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "How do we handle data subject deletion requests?",
+      "expected_answer": "Requests are verified, data identified, and deletion completed within 30 days.",
+      "collections": ["procedures", "compliance"],
+      "difficulty": "hard",
+      "type": "procedural"
+    },
+    {
+      "question": "What are the requirements for cloud data storage?",
+      "expected_answer": "Cloud storage must use encryption, identity management, and compliance certifications.",
+      "collections": ["best_practices"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "How is metadata managed?",
+      "expected_answer": "Metadata is captured during ingestion and stored in centralized catalogs.",
+      "collections": ["data", "technical"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "question": "What policies address data sharing outside the organization?",
+      "expected_answer": "Data sharing requires contracts, NDA, risk assessments, and compliance checks.",
+      "collections": ["policies", "compliance"],
+      "difficulty": "hard",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "What training is provided for data privacy?",
+      "expected_answer": "Annual training covers privacy principles, legal obligations, and best practices.",
+      "collections": ["policies"],
+      "difficulty": "easy",
+      "type": "policy_lookup"
+    },
+    {
+      "question": "How is data archived for long-term retention?",
+      "expected_answer": "Data is archived in immutable storage with access controls for the retention period.",
+      "collections": ["best_practices"],
+      "difficulty": "medium",
+      "type": "procedural"
+    },
+    {
+      "question": "How do we handle exceptions in data processing?",
+      "expected_answer": "Exceptions are logged, reviewed, and resolved following escalation protocols.",
+      "collections": ["procedures"],
+      "difficulty": "hard",
+      "type": "procedural"
+    },
+    {
+      "question": "What is the policy on data anonymization?",
+      "expected_answer": "Sensitive data must be anonymized before use in analytics or sharing.",
+      "collections": ["policies", "security"],
+      "difficulty": "medium",
+      "type": "policy_lookup"
     }
-  ]
+  ],
+  "metadata": {
+    "version": "1.0",
+    "created_date": "2025-08-19",
+    "domain": "data_management",
+    "total_questions": 50
+  }
 }
